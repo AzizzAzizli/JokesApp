@@ -1,6 +1,11 @@
 # JokesApp
 # Getting Started with Create React App
 
+# I present you my small project I wrote with #React.js, which I just started to learn.
+#In this project, jokes are ranked according to your likes and dislikes.
+#// Jokes come from API
+#/*Note: Since likes are not stored in the database, each user only sees their own likes, and these likes are reset after refreshing the page. */
+#Is responsive
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
