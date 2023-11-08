@@ -35,3 +35,32 @@ text-align: center;
   max-height: 600px;
   overflow-y: auto;
 }
+
+@media screen and (max-width: 1024px) {
+.box{
+  box-sizing: border-box;
+  flex-direction: column;
+}
+.leftSide{
+  padding: 40px 0px;
+
+  margin: 0px;
+  height: 40%;
+  && img{
+    width: 25% !important;
+
+  }
+}
+
+  
+}
+@media screen and (max-width: 750px){
+.box{
+  width: 90%;
+}
+}
+@media screen and (max-width: 430px){
+  .box{
+    width: 95%;
+  }
+  }
