@@ -1,0 +1,44 @@
+.card {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 0px 20px;
+  overflow: auto;
+  min-width: 600px;
+  overflow-x: auto;
+  height: 80px;
+  border-bottom: 1px solid gray;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.likeBox {
+  color: white;
+  display: flex;
+  && button {
+    background-color: rgb(234, 0, 255);
+    padding: 12px;
+    cursor: pointer;
+    border: none;
+    border-radius: 8px;
+    transition: all 0.5;
+  }
+  && button:active {
+    transform: scale(0.95);
+  }
+  && span {
+    padding: 16px 20px;
+    margin: 0px 6px;
+    background-color: rgb(223, 21, 149);
+    border-radius: 100%;
+  }
+}
+.joke {
+  font-family: cursive;
+  font-size: 12px;
+  padding: 0px 16px;
+
+}
+.smile {
+  font-size: 44px;
+}
